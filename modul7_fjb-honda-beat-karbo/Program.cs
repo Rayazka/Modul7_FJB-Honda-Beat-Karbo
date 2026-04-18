@@ -8,6 +8,12 @@ namespace modul7_fjb_honda_beat_karbo
         {
             FilmFavorit_103022400105 filmFavFarrel = new FilmFavorit_103022400105();
             filmFavFarrel.ReadJSON();
+
+            Console.WriteLine();
+
+            Watchlist_103022400105 dataWatchlistFarrel = new Watchlist_103022400105();
+            dataWatchlistFarrel.ReadJSON();
+            Console.WriteLine();
         }
     }
 }
