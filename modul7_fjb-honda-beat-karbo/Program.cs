@@ -11,6 +11,9 @@
             dataWatchlistJo.ReadJSON();
             Console.WriteLine();
 
+            GenreDictionary_103022400006_josefhint dataGenreJo = new GenreDictionary_103022400006_josefhint();
+            dataGenreJo.ReadJSON();
+
         }
     }
 }
