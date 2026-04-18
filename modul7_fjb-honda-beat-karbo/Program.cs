@@ -10,6 +10,9 @@
             Watchlist_103022430002 dataWatchlistRafly = new Watchlist_103022430002();
             dataWatchlistRafly.ReadJSON();
             Console.WriteLine();
+
+            GenreDictionary_103022430002 dataGenreRay = new GenreDictionary_103022430002();
+            dataGenreRay.ReadJSON();
         }
     }
 }
