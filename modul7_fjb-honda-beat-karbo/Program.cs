@@ -4,8 +4,12 @@
     {
         static void Main(string[] args)
         {
-            FilmFavorit_103022430002_RaflyPutra dataFilmRay = new FilmFavorit_103022430002_RaflyPutra();
-            dataFilmRay.ReadJson();
+            FilmFavorit_103022430002_RaflyPutra dataFilmRafly = new FilmFavorit_103022430002_RaflyPutra();
+            dataFilmRafly.ReadJson();
+
+            Watchlist_103022430002 dataWatchlistRafly = new Watchlist_103022430002();
+            dataWatchlistRafly.ReadJSON();
+            Console.WriteLine();
         }
     }
 }
