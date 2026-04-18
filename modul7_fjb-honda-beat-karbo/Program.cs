@@ -14,6 +14,11 @@ namespace modul7_fjb_honda_beat_karbo
             Watchlist_103022400105 dataWatchlistFarrel = new Watchlist_103022400105();
             dataWatchlistFarrel.ReadJSON();
             Console.WriteLine();
+
+            Console.WriteLine();
+
+            GenreDictionary_103022400105 dataGenreRay = new GenreDictionary_103022400105();
+            dataGenreRay.ReadJSON();
         }
     }
 }
