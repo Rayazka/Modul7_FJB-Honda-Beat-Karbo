@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            FilmFavorit_103024400096 dataFilmRay = new FilmFavorit_103024400096();
+            FilmFavorit_103022430002_RaflyPutra dataFilmRay = new FilmFavorit_103022430002_RaflyPutra();
             dataFilmRay.ReadJson();
         }
     }
