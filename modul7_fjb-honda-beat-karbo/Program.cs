@@ -12,7 +12,8 @@
             dataWatchlistRay.ReadJSON();
             Console.WriteLine();
 
-
+            GenreDictionary_103022400096 dataGenreRay = new GenreDictionary_103022400096();
+            dataGenreRay.ReadJSON();
         }
     }
 }
