@@ -4,8 +4,13 @@
     {
         static void Main(string[] args)
         {
-            FilmFavorit_103022400006_josefhint dataFilmRay = new FilmFavorit_103022400006_josefhint();
-            dataFilmRay.ReadJson();
+            FilmFavorit_103022400006_josefhint dataFilmJo = new FilmFavorit_103022400006_josefhint();
+            dataFilmJo.ReadJson();
+
+            Watchlist_103022400006_josefhint dataWatchlistJo = new Watchlist_103022400006_josefhint();
+            dataWatchlistJo.ReadJSON();
+            Console.WriteLine();
+
         }
     }
 }
