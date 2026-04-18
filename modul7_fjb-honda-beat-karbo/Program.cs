@@ -4,6 +4,16 @@
     {
         static void Main(string[] args)
         {
+            FilmFavorit_103022400006_josefhint dataFilmJo = new FilmFavorit_103022400006_josefhint();
+            dataFilmJo.ReadJson();
+
+            Watchlist_103022400006_josefhint dataWatchlistJo = new Watchlist_103022400006_josefhint();
+            dataWatchlistJo.ReadJSON();
+            Console.WriteLine();
+
+            GenreDictionary_103022400006_josefhint dataGenreJo = new GenreDictionary_103022400006_josefhint();
+            dataGenreJo.ReadJSON();
+
             FilmFavorit_103024400093 dataFilmToni = new FilmFavorit_103024400093();
             dataFilmToni.ReadJson();
             Console.WriteLine();
