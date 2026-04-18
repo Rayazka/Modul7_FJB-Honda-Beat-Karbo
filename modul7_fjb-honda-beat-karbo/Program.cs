@@ -4,6 +4,48 @@
     {
         static void Main(string[] args)
         {
+            FilmFavorit_103022430002_RaflyPutra dataFilmRafly = new FilmFavorit_103022430002_RaflyPutra();
+            dataFilmRafly.ReadJson();
+
+            Watchlist_103022430002 dataWatchlistRafly = new Watchlist_103022430002();
+            dataWatchlistRafly.ReadJSON();
+            Console.WriteLine();
+
+            GenreDictionary_103022430002 dataGenreRay = new GenreDictionary_103022430002();
+            FilmFavorit_103022400006_josefhint dataFilmJo = new FilmFavorit_103022400006_josefhint();
+            dataFilmJo.ReadJson();
+
+            Watchlist_103022400006_josefhint dataWatchlistJo = new Watchlist_103022400006_josefhint();
+            dataWatchlistJo.ReadJSON();
+            Console.WriteLine();
+
+            GenreDictionary_103022400006_josefhint dataGenreJo = new GenreDictionary_103022400006_josefhint();
+            dataGenreJo.ReadJSON();
+
+            FilmFavorit_103024400093 dataFilmToni = new FilmFavorit_103024400093();
+            dataFilmToni.ReadJson();
+            Console.WriteLine();
+
+            Watchlist_103022400093 dataWatchlistToni = new Watchlist_103022400093();
+            dataWatchlistToni.ReadJSON();
+            Console.WriteLine();
+
+            GenreDictionary_103022400093 dataGenreToni = new GenreDictionary_103022400093();
+            dataGenreToni.ReadJSON();
+            FilmFavorit_103022400105 filmFavFarrel = new FilmFavorit_103022400105();
+            filmFavFarrel.ReadJSON();
+
+            Console.WriteLine();
+
+            Watchlist_103022400105 dataWatchlistFarrel = new Watchlist_103022400105();
+            dataWatchlistFarrel.ReadJSON();
+            Console.WriteLine();
+
+            Console.WriteLine();
+
+            GenreDictionary_103022400105 dataGenreRay = new GenreDictionary_103022400105();
+            dataGenreRay.ReadJSON();
+
             FilmFavorit_103024400096 dataFilmRay = new FilmFavorit_103024400096();
             dataFilmRay.ReadJson();
             Console.WriteLine();
