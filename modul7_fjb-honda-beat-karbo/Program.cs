@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace modul7_fjb_honda_beat_karbo
+﻿namespace modul7_fjb_honda_beat_karbo
 {
     internal class Program
     {
@@ -19,6 +17,9 @@ namespace modul7_fjb_honda_beat_karbo
 
             GenreDictionary_103022400105 dataGenreRay = new GenreDictionary_103022400105();
             dataGenreRay.ReadJSON();
+
+            FilmFavorit_103024400096 dataFilmRay = new FilmFavorit_103024400096();
+            dataFilmRay.ReadJson();
         }
     }
 }
