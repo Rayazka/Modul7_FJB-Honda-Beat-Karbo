@@ -6,6 +6,13 @@
         {
             FilmFavorit_103024400096 dataFilmRay = new FilmFavorit_103024400096();
             dataFilmRay.ReadJson();
+            Console.WriteLine();
+
+            Watchlist_103022400096 dataWatchlistRay = new Watchlist_103022400096();
+            dataWatchlistRay.ReadJSON();
+            Console.WriteLine();
+
+
         }
     }
 }
